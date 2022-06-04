@@ -24,7 +24,7 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
     <code><img height="30" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></code><!-- sass -->
     <code><img height="30" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"></code><!-- javascript -->
     <code><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"></img></code>
-        <code><img src="https://i.postimg.cc/0QLfkqmD/pocoo-flask-ar21.png)](https://postimg.cc/jw4NcmMS" height="30" width="90"></img></code>
+    <code><img src="https://i.postimg.cc/0QLfkqmD/pocoo-flask-ar21.png)](https://postimg.cc/jw4NcmMS" height="30" width="80"></img></code>
 
 ## Vista previa del proyecto
 `` vista no disponible``
