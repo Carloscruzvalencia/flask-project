@@ -34,7 +34,7 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
 <!-- <a href=""> En el caso de que el proyecto tenga trello</a> -->
 |             ESTADO                |             |
 | -------------------------- | :----------------: | 
-| Trabajando en el proyecto           |         ✔️  ❌    |  
+| Trabajando en el proyecto           |         ✔️     |  
 <!-- | Trabajando en otro proyecto          |         ✔️  ❌    |  
 | Arreglando bugs           |         ✔️  ❌    |
 | Cancelado           |         ✔️  ❌    |
@@ -43,7 +43,7 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
 ## web responsive
 |             ESTADO                |             |
 | -------------------------- | :----------------: | 
-| NO          |         ✔️  ❌    |  
+| NO          |         ✔️    |  
 <!-- | SI          |         ✔️  ❌    |   -->
 
 ## Licencia
