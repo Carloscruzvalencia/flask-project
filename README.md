@@ -48,3 +48,15 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
 
 ## Licencia
 Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md)  para mas detalles
+
+
+<!-- ## !codigo temporal¡
+## git update code
+```shell
+git add -A && git commit -a -m \"update\" && git push
+```
+
+## sass compiler code
+```shell
+sass -w --style compressed assets/styles/sass/main.scss assets/styles/css/main.css
+``` -->
