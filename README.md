@@ -28,6 +28,8 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
 
 ## Vista previa del proyecto
 `` vista no disponible``
+
+
 <!-- <img src="project-preview.png" aling="center"></img> -->
 <!-- <img src="project-preview.gif" aling="center"></img> -->
 ## Estado del proyecto
@@ -44,6 +46,13 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
 |             ESTADO                |             |
 | -------------------------- | :----------------: | 
 | NO          |         ✔️    |  
+<!-- | SI          |         ✔️  ❌    |   -->
+
+## Hosting
+``Heroku``
+ |             ESTADO                |             |
+| -------------------------- | :----------------: | 
+| websever app online          |         ❌    |  
 <!-- | SI          |         ✔️  ❌    |   -->
 
 ## Licencia
