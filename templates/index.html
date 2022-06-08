@@ -1,141 +1,186 @@
 {% extends "layouts/base.html" %}
 {% block menu %}
 <nav>
-    <a class="menu" href=""><img class="m-image" src="{{url_for('static', filename='img/components/menu-wh.png')}}" alt=""></a>
+    <a class="menu" href=""><img class="m-image" src="{{url_for('static', filename='img/components/menu-wh.png')}}"
+            alt=""></a>
     <ul>
         <li><a href="null">Home</a></li>
         <li><a href="null">Contact</a></li>
         <li><a href="null">Explorar</a></li>
         <li><a href="null">Mas</a></li>
     </ul>
+    <button id=""><img src="{{url_for('static', filename='img/components/shoplist-list.png')}}" alt=""></button>
 </nav>
 {% endblock %}
 {% block maincontent %}
-    <section class="item__cards-container">
-        <div class="card__product">
-            <div class="card__description">
-                <p>Product name</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo? Consectetur, quia.</p>
-                <button id="card-product-id">add to shoplist <img src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
-            </div>
+<section class="item__cards-container">
+    <div class="card__product">
+        <div class="card__description">
+            <p>Product name</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
+                quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo?
+                Consectetur, quia.</p>
+            <button id="card-product-id">add to shoplist <img
+                    src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
-        <div class="card__product">
-            <div class="card__description">
-                <p>Product name</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo? Consectetur, quia.</p>
-                <button id="card-product-id">add to shoplist <img src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
-            </div>
+    </div>
+    <div class="card__product">
+        <div class="card__description">
+            <p>Product name</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
+                quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo?
+                Consectetur, quia.</p>
+            <button id="card-product-id">add to shoplist <img
+                    src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
-        <div class="card__product">
-            <div class="card__description">
-                <p>Product name</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo? Consectetur, quia.</p>
-                <button id="card-product-id">add to shoplist <img src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
-            </div>
+    </div>
+    <div class="card__product">
+        <div class="card__description">
+            <p>Product name</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
+                quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo?
+                Consectetur, quia.</p>
+            <button id="card-product-id">add to shoplist <img
+                    src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
-        <div class="card__product">
-            <div class="card__description">
-                <p>Product name</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo? Consectetur, quia.</p>
-                <button id="card-product-id">add to shoplist <img src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
-            </div>
+    </div>
+    <div class="card__product">
+        <div class="card__description">
+            <p>Product name</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
+                quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo?
+                Consectetur, quia.</p>
+            <button id="card-product-id">add to shoplist <img
+                    src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
-        <div class="card__product">
-            <div class="card__description">
-                <p>Product name</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo? Consectetur, quia.</p>
-                <button id="card-product-id">add to shoplist <img src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
-            </div>
+    </div>
+    <div class="card__product">
+        <div class="card__description">
+            <p>Product name</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
+                quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo?
+                Consectetur, quia.</p>
+            <button id="card-product-id">add to shoplist <img
+                    src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
-        <div class="card__product">
-            <div class="card__description">
-                <p>Product name</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo? Consectetur, quia.</p>
-                <button id="card-product-id">add to shoplist <img src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
-            </div>
+    </div>
+    <div class="card__product">
+        <div class="card__description">
+            <p>Product name</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
+                quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo?
+                Consectetur, quia.</p>
+            <button id="card-product-id">add to shoplist <img
+                    src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
-        <div class="card__product">
-            <div class="card__description">
-                <p>Product name</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo? Consectetur, quia.</p>
-                <button id="card-product-id">add to shoplist <img src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
-            </div>
+    </div>
+    <div class="card__product">
+        <div class="card__description">
+            <p>Product name</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
+                quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo?
+                Consectetur, quia.</p>
+            <button id="card-product-id">add to shoplist <img
+                    src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
-        <div class="card__product">
-            <div class="card__description">
-                <p>Product name</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo? Consectetur, quia.</p>
-                <button id="card-product-id">add to shoplist <img src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
-            </div>
+    </div>
+    <div class="card__product">
+        <div class="card__description">
+            <p>Product name</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
+                quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo?
+                Consectetur, quia.</p>
+            <button id="card-product-id">add to shoplist <img
+                    src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
-        <div class="card__product">
-            <div class="card__description">
-                <p>Product name</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo? Consectetur, quia.</p>
-                <button id="card-product-id">add to shoplist <img src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
-            </div>
+    </div>
+    <div class="card__product">
+        <div class="card__description">
+            <p>Product name</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
+                quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo?
+                Consectetur, quia.</p>
+            <button id="card-product-id">add to shoplist <img
+                    src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
-        <div class="card__product">
-            <div class="card__description">
-                <p>Product name</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo? Consectetur, quia.</p>
-                <button id="card-product-id">add to shoplist <img src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
-            </div>
+    </div>
+    <div class="card__product">
+        <div class="card__description">
+            <p>Product name</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
+                quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo?
+                Consectetur, quia.</p>
+            <button id="card-product-id">add to shoplist <img
+                    src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
-        <div class="card__product">
-            <div class="card__description">
-                <p>Product name</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo? Consectetur, quia.</p>
-                <button id="card-product-id">add to shoplist <img src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
-            </div>
+    </div>
+    <div class="card__product">
+        <div class="card__description">
+            <p>Product name</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
+                quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo?
+                Consectetur, quia.</p>
+            <button id="card-product-id">add to shoplist <img
+                    src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
-        <div class="card__product">
-            <div class="card__description">
-                <p>Product name</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo? Consectetur, quia.</p>
-                <button id="card-product-id">add to shoplist <img src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
-            </div>
+    </div>
+    <div class="card__product">
+        <div class="card__description">
+            <p>Product name</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
+                quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo?
+                Consectetur, quia.</p>
+            <button id="card-product-id">add to shoplist <img
+                    src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
-        <div class="card__product">
-            <div class="card__description">
-                <p>Product name</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo? Consectetur, quia.</p>
-                <button id="card-product-id">add to shoplist <img src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
-            </div>
+    </div>
+    <div class="card__product">
+        <div class="card__description">
+            <p>Product name</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
+                quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo?
+                Consectetur, quia.</p>
+            <button id="card-product-id">add to shoplist <img
+                    src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
-        <div class="card__product">
-            <div class="card__description">
-                <p>Product name</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo? Consectetur, quia.</p>
-                <button id="card-product-id">add to shoplist <img src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
-            </div>
+    </div>
+    <div class="card__product">
+        <div class="card__description">
+            <p>Product name</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
+                quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo?
+                Consectetur, quia.</p>
+            <button id="card-product-id">add to shoplist <img
+                    src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
-        <div class="card__product">
-            <div class="card__description">
-                <p>Product name</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo? Consectetur, quia.</p>
-                <button id="card-product-id">add to shoplist <img src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
-            </div>
+    </div>
+    <div class="card__product">
+        <div class="card__description">
+            <p>Product name</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
+                quisquam similique, hic, rem itaque soluta nisi doloribus, aspernatur neque iusto explicabo?
+                Consectetur, quia.</p>
+            <button id="card-product-id">add to shoplist <img
+                    src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
+    </div>
 
-    </section>
+</section>
 {% endblock %}
 {% block aside %}
-    <h2>Filter</h2>
-    <ol>
-        <li> Shoes <input type="checkbox" name="" id=""></li>
-        <li> T-shirts <input type="checkbox" name="" id=""></li>
-        <li> Sweaters <input type="checkbox" name="" id=""></li>
-        <li> Socks <input type="checkbox" name="" id=""></li>
-        <li> Dress <input type="checkbox" name="" id=""></li>
-    </ol>
-    <h2>Filter</h2>
-    <ol>
-        <li> Shoes <input type="checkbox" name="" id=""></li>
-        <li> T-shirts <input type="checkbox" name="" id=""></li>
-        <li> Sweaters <input type="checkbox" name="" id=""></li>
-        <li> Socks <input type="checkbox" name="" id=""></li>
-        <li> Dress <input type="checkbox" name="" id=""></li>
-    </ol>
-    <input type="range" name="" id="">
+<h2>Filter</h2>
+<ol>
+    <li> Shoes <input type="checkbox" name="" id=""></li>
+    <li> T-shirts <input type="checkbox" name="" id=""></li>
+    <li> Sweaters <input type="checkbox" name="" id=""></li>
+    <li> Socks <input type="checkbox" name="" id=""></li>
+    <li> Dress <input type="checkbox" name="" id=""></li>
+</ol>
+<h2>Filter</h2>
+<ol>
+    <li> Wath <input type="checkbox" name="" id=""></li>
+    <li> Hat <input type="checkbox" name="" id=""></li>
+    <li> Belt <input type="checkbox" name="" id=""></li>
+</ol>
+<input type="range" name="" id="">
 {% endblock %}

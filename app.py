@@ -6,5 +6,9 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+@app.route('/')
+def shoppage():
+    return render_template("layouts/shoppage.html")
+
 if __name__ == '__main__':
     app.run()
