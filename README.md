@@ -1,7 +1,8 @@
-# flask website
+# flask ecommerce
 ## Inpiracion del proyecto & objetivo
 
-Proyecto donde trato de hacer una aplicacion web con python y flask
+- Proyecto donde trato de hacer un ecommerce con python y flask
+- Tambien intento aprender como funciona ``flask y Jinja2``
 
 El diseño web creado en <a href="https://www.figma.com/file/kP0SJhf4iDDa9kAzsz1LM1/Github-projects?node-id=0%3A1">figma</a> por Carlos cruz valencia
 
