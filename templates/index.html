@@ -1,17 +1,5 @@
+{% include "components/menu.html"  %}
 {% extends "layouts/base.html" %}
-{% block menu %}
-<nav>
-    <a class="menu" href=""><img class="m-image" src="{{url_for('static', filename='img/components/menu-wh.png')}}"
-            alt=""></a>
-    <ul>
-        <li><a href="null">Home</a></li>
-        <li><a href="null">Contact</a></li>
-        <li><a href="null">Explorar</a></li>
-        <li><a href="null">Mas</a></li>
-    </ul>
-    <button id=""><img src="{{url_for('static', filename='img/components/shoplist-list.png')}}" alt=""></button>
-</nav>
-{% endblock %}
 {% block maincontent %}
 <section class="item__cards-container">
     <div class="card__product">
