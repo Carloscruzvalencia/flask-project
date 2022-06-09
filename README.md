@@ -3,6 +3,7 @@
 
 - Proyecto donde trato de hacer un ecommerce con python y flask
 - Tambien intento aprender como funciona ``flask y Jinja2``
+
 El diseño web creado en <a href="https://www.figma.com/file/kP0SJhf4iDDa9kAzsz1LM1/Github-projects?node-id=0%3A1">figma</a> por Carlos cruz valencia
 
 El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.youtube.com/playlist?list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX">youtube flask playlist</a>
