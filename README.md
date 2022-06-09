@@ -1,4 +1,4 @@
-# flask website
+# flask ecommerce
 ## Inpiracion del proyecto & objetivo
 
 - Proyecto donde trato de hacer un ecommerce con python y flask
