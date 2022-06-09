@@ -35,26 +35,17 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
 <!-- <img src="project-preview.gif" aling="center"></img> -->
 ## Estado del proyecto
 <!-- <a href=""> En el caso de que el proyecto tenga trello</a> -->
-|             ESTADO                |             |
+|Trabajando en el proyecto|✔️| 
 | -------------------------- | :----------------: | 
-| Trabajando en el proyecto           |         ✔️     |  
-<!-- | Trabajando en otro proyecto          |         ✔️  ❌    |  
-| Arreglando bugs           |         ✔️  ❌    |
-| Cancelado           |         ✔️  ❌    |
-| Proyecto terminado           |         ✔️  ❌    |  -->
 
-## web responsive
-|             ESTADO                |             |
+|            web responsive              |      ❌        |
 | -------------------------- | :----------------: | 
-| NO          |         ✔️    |  
-<!-- | SI          |         ✔️  ❌    |   -->
 
-## Hosting
-``Heroku``
- |             ESTADO                |             |
+
+
+ |           Hosting                |       Heroku      |
 | -------------------------- | :----------------: | 
 | websever app online          |         ❌    |  
-<!-- | SI          |         ✔️  ❌    |   -->
 
 ## Licencia
 Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md)  para mas detalles
