@@ -1,5 +1,20 @@
-{% include "components/menu.html"  %}
 {% extends "layouts/base.html" %}
+
+{% block title %}KAEL - Home{% endblock title %}
+{% block header %}
+<nav>
+    <a class="menu" href=""><img class="m-image" src="{{url_for('static', filename='img/components/menu-wh.png')}}"
+            alt=""></a>
+    <ul>
+        <li><a href="null">Home</a></li>
+        <li><a href="null">Contact</a></li>
+        <li><a href="null">Explorar</a></li>
+        <li><a href="null">Mas</a></li>
+    </ul>
+    <h1>kael</h1>
+    <button onclick="btlicked()" id="shopbutton"><img src="{{url_for('static', filename='img/components/shoplist-list.png')}}" alt=""></button>
+</nav>
+{% endblock header %}
 {% block maincontent %}
 <section class="item__cards-container">
     <div class="card__product">
@@ -154,7 +169,7 @@
     </div>
 
 </section>
-{% endblock %}
+{% endblock maincontent %}
 {% block aside %}
 <h2>Filter</h2>
 <ol>
@@ -171,4 +186,6 @@
     <li> Belt <input type="checkbox" name="" id=""></li>
 </ol>
 <input type="range" name="" id="">
-{% endblock %}
+{% endblock aside %}
+{% block footer %}
+{% endblock footer %}
