@@ -92,7 +92,7 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
 2. Creamos la carpeta del proyecto y los archivos necesarios
 
     <img src="pr-progres/tree2.png"></img>
-    
+
 3. Configuramos el archivo app.py
     ```python
     from flask import Flask, redirect, url_for, render_template
@@ -110,31 +110,31 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
     ```html
         <!DOCTYPE html>
          <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>{% block title %} {% endblock %}</title>
-        </head>
-        <body>
-            <header>
-                {% block header %}
-                {% endblock %}
-            </header>
-            <main>
-                {% block maincontent %}
-                {% endblock %}
-            </main>
-            <aside>
-                {% block aside %}
-                {% endblock %}
-            </aside>
-            <footer>
-                {% block footer %}
-                {% endblock %}
-            </footer>
-        </body>
-    </html>
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>{% block title %} {% endblock %}</title>
+            </head>
+            <body>
+                <header>
+                    {% block header %}
+                    {% endblock %}
+                </header>
+                <main>
+                    {% block maincontent %}
+                    {% endblock %}
+                </main>
+                <aside>
+                    {% block aside %}
+                    {% endblock %}
+                </aside>
+                <footer>
+                    {% block footer %}
+                    {% endblock %}
+                </footer>
+            </body>
+        </html>
     ```
     
 5. Modificamos el archivo index.html
