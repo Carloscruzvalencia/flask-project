@@ -40,9 +40,9 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
 |            web responsive              |      ❌        |
 |           Hosting                |       Heroku      |
 | websever app online          |         ❌    |  
-<details open>
+<details >
 <summary>⚙️Progreso del proyecto⚙️</summary>
-<details open>
+<details >
 <summary>🗂️Rama de directorios🗂️</summary>
 
 <div>
@@ -54,7 +54,7 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
 </details>
 
 
-<details open>
+<details >
 <summary>🗃️Grafico del repositorio🗃️</summary>
 <br>
 
@@ -72,7 +72,7 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
 
 </details>
 
-<details open>
+<details >
 <summary>👣 Instalacion Paso a paso👣</summary>
 
 1. instalacion
@@ -90,7 +90,9 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
     - Jinja2
     - wathdog
 2. Creamos la carpeta del proyecto y los archivos necesarios
+
     <img src="pr-progres/tree2.png"></img>
+
 3. Configuramos el archivo app.py
     ```python
     from flask import Flask, redirect, url_for, render_template
@@ -108,31 +110,31 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
     ```html
         <!DOCTYPE html>
          <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>{% block title %} {% endblock %}</title>
-        </head>
-        <body>
-            <header>
-                {% block header %}
-                {% endblock %}
-            </header>
-            <main>
-                {% block maincontent %}
-                {% endblock %}
-            </main>
-            <aside>
-                {% block aside %}
-                {% endblock %}
-            </aside>
-            <footer>
-                {% block footer %}
-                {% endblock %}
-            </footer>
-        </body>
-    </html>
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>{% block title %} {% endblock %}</title>
+            </head>
+            <body>
+                <header>
+                    {% block header %}
+                    {% endblock %}
+                </header>
+                <main>
+                    {% block maincontent %}
+                    {% endblock %}
+                </main>
+                <aside>
+                    {% block aside %}
+                    {% endblock %}
+                </aside>
+                <footer>
+                    {% block footer %}
+                    {% endblock %}
+                </footer>
+            </body>
+        </html>
     ```
     
 5. Modificamos el archivo index.html
@@ -170,9 +172,8 @@ Pra saber mas sobre python y flask visita estos enlaces:
 
 </details>
 
-<details open>
+<details >
 <summary>📜Desarrollo del ecomerce📜</summary>
-</details>
 
 1. Se desarolla el menu ⌚ 05/06/22
 <img src="pr-progres/menu.png"></img>
@@ -184,6 +185,7 @@ Pra saber mas sobre python y flask visita estos enlaces:
 
 4. Se añaden animaciones a las tarjetas de los productos ⌚ 11/06/22
 <img src="pr-progres/1.gif"></img>
+</details>
 
 
 ## Licencia
@@ -200,4 +202,3 @@ git add -A && git commit -a -m \"update\" && git push
 ```shell
 sass -w --style compressed static/styles/sass/main.scss static/styles/css/main.css
 ``` -->
-🚨🚧👉🤷🐛🪄🧩📜❗⚠️
