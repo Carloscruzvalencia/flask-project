@@ -90,7 +90,9 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
     - Jinja2
     - wathdog
 2. Creamos la carpeta del proyecto y los archivos necesarios
+
     <img src="pr-progres/tree2.png"></img>
+    
 3. Configuramos el archivo app.py
     ```python
     from flask import Flask, redirect, url_for, render_template
