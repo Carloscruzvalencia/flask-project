@@ -38,6 +38,32 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
 |Trabajando en el proyecto|✔️| 
 | -------------------------- | :----------------: | 
 
+<details open>
+<summary>Progreso del proyecto</summary>
+
+#### Si el proyecto esta en desarrollo, el siguiente estado es el que se muestra en la tabla de abajo.
+
+<details open>
+<summary>Rama de directorios</summary>
+
+
+</details>
+<br>
+<details open>
+<summary>Grafico del repositorio</summary>
+```mermaid
+graph TD;
+    A-->B;
+    B-->D;
+    C-->D;
+```
+</details>
+<br>
+
+<img src="pr-progres/1.png" aling="center"></img>
+
+</details>
+
 |            web responsive              |      ❌        |
 | -------------------------- | :----------------: | 
 
@@ -46,6 +72,8 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
  |           Hosting                |       Heroku      |
 | -------------------------- | :----------------: | 
 | websever app online          |         ❌    |  
+
+
 
 ## Licencia
 Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md)  para mas detalles
