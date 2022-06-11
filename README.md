@@ -172,7 +172,7 @@ Pra saber mas sobre python y flask visita estos enlaces:
 
 </details>
 
-<details >
+<details open>
 <summary>📜Desarrollo del ecomerce📜</summary>
 
 1. Se desarolla el menu ⌚ 05/06/22
@@ -185,6 +185,13 @@ Pra saber mas sobre python y flask visita estos enlaces:
 
 4. Se añaden animaciones a las tarjetas de los productos ⌚ 11/06/22
 <img src="pr-progres/1.gif"></img>
+5. se termina el desarrollo frontend de la landigpage ⌚ 11/06/22
+<img src="pr-progres/2.png"></img>
+5.1 se mejoran las animaciones de los items & segenera una seccion con scroll para los productos ⌚ 11/06/22
+<img src="pr-progres/2.gif"></img>
+
+
+
 </details>
 
 
