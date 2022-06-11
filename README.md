@@ -40,9 +40,9 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
 |            web responsive              |      ❌        |
 |           Hosting                |       Heroku      |
 | websever app online          |         ❌    |  
-<details open>
+<details >
 <summary>⚙️Progreso del proyecto⚙️</summary>
-<details open>
+<details >
 <summary>🗂️Rama de directorios🗂️</summary>
 
 <div>
@@ -54,7 +54,7 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
 </details>
 
 
-<details open>
+<details >
 <summary>🗃️Grafico del repositorio🗃️</summary>
 <br>
 
@@ -72,7 +72,7 @@ El proyecto se basa en los tutoriales de Tech With Tim  <a href="https://www.you
 
 </details>
 
-<details open>
+<details >
 <summary>👣 Instalacion Paso a paso👣</summary>
 
 1. instalacion
@@ -170,9 +170,8 @@ Pra saber mas sobre python y flask visita estos enlaces:
 
 </details>
 
-<details open>
+<details >
 <summary>📜Desarrollo del ecomerce📜</summary>
-</details>
 
 1. Se desarolla el menu ⌚ 05/06/22
 <img src="pr-progres/menu.png"></img>
@@ -184,6 +183,7 @@ Pra saber mas sobre python y flask visita estos enlaces:
 
 4. Se añaden animaciones a las tarjetas de los productos ⌚ 11/06/22
 <img src="pr-progres/1.gif"></img>
+</details>
 
 
 ## Licencia
