@@ -1,0 +1,26 @@
+// browser configuration and other settings
+@use "base/settings";
+@use "base/fonts";
+
+
+// webpage components
+@use "components/menu";
+@use "components/aside";
+@use "components/footer";
+
+// webpage layouts
+@use "layouts/landing";
+
+body {
+    display: grid;
+    height: fit-content;
+    
+    grid-template-areas: 
+    "header header header"
+    "sidebar content content"
+    "sidebar footer  footer";
+
+    background-image: url("../../img/backgrounds/wbs-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

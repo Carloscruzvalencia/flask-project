@@ -1,0 +1,32 @@
+aside {
+	display: grid;
+	grid-area: sidebar;
+	background-color: #fff;
+	height: 95vh;
+	width: 0vw;
+	grid-template-rows: 5vh 15vh 5vh 8vh 5vh 4vh 5vh;
+	padding: 5vh 0vh 0vh 0vh;
+	overflow: hidden;
+	transition: .5s ease-in-out;
+	h2 {
+		font-size: 1.6vw;
+		margin: 1vw 0vw 1vw 1vw;
+		&:nth-child(6) {
+			justify-self: center;
+		}
+	}
+	ol {
+		display: grid;
+		padding-top: 1vh;
+		li {
+			font-size: 1.2vw;
+			padding-left: 2vw;
+		}
+	}
+	input[type=range] {
+		width: 12vw;
+	}
+	input[type=checkbox]:checked {
+		accent-color: #fff;
+	}
+}

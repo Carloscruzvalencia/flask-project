@@ -1,8 +1,23 @@
-{% include "components/menu.html"  %}
 {% extends "layouts/base.html" %}
+
+{% block title %}KAEL - Home{% endblock title %}
+{% block header %}
+<nav>
+    <img onclick="menuOpen()"  class="m-image" alt="filterImage" src="{{url_for('static', filename='img/components/filter.png')}}">
+    <ul>
+        <li><a href="null">Home</a></li>
+        <li><a href="null">Contact</a></li>
+        <li><a href="null">Explorar</a></li>
+        <li><a href="null">Mas</a></li>
+    </ul>
+    <h1>kael</h1>
+    <button onclick="" id="shopbutton"><img
+            src="{{url_for('static', filename='img/components/shoplist-list.png')}}" alt=""></button>
+</nav>
+{% endblock header %}
 {% block maincontent %}
 <section class="item__cards-container">
-    <div class="card__product">
+    <div class="card__product" itemtype="">
         <div class="card__description">
             <p>Product name</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
@@ -12,7 +27,7 @@
                     src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
     </div>
-    <div class="card__product">
+    <div class="card__product" itemtype="">
         <div class="card__description">
             <p>Product name</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
@@ -22,7 +37,7 @@
                     src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
     </div>
-    <div class="card__product">
+    <div class="card__product" itemtype="">
         <div class="card__description">
             <p>Product name</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
@@ -32,7 +47,7 @@
                     src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
     </div>
-    <div class="card__product">
+    <div class="card__product" itemtype="">
         <div class="card__description">
             <p>Product name</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
@@ -42,7 +57,7 @@
                     src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
     </div>
-    <div class="card__product">
+    <div class="card__product" itemtype="">
         <div class="card__description">
             <p>Product name</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
@@ -52,7 +67,7 @@
                     src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
     </div>
-    <div class="card__product">
+    <div class="card__product" itemtype="">
         <div class="card__description">
             <p>Product name</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
@@ -62,7 +77,7 @@
                     src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
     </div>
-    <div class="card__product">
+    <div class="card__product" itemtype="">
         <div class="card__description">
             <p>Product name</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
@@ -72,7 +87,7 @@
                     src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
     </div>
-    <div class="card__product">
+    <div class="card__product" itemtype="">
         <div class="card__description">
             <p>Product name</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
@@ -82,7 +97,7 @@
                     src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
     </div>
-    <div class="card__product">
+    <div class="card__product" itemtype="">
         <div class="card__description">
             <p>Product name</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
@@ -92,7 +107,7 @@
                     src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
     </div>
-    <div class="card__product">
+    <div class="card__product" itemtype="">
         <div class="card__description">
             <p>Product name</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
@@ -102,7 +117,7 @@
                     src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
     </div>
-    <div class="card__product">
+    <div class="card__product" itemtype="">
         <div class="card__description">
             <p>Product name</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
@@ -112,7 +127,7 @@
                     src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
     </div>
-    <div class="card__product">
+    <div class="card__product" itemtype="">
         <div class="card__description">
             <p>Product name</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
@@ -122,7 +137,7 @@
                     src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
     </div>
-    <div class="card__product">
+    <div class="card__product" itemtype="">
         <div class="card__description">
             <p>Product name</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
@@ -132,7 +147,7 @@
                     src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
     </div>
-    <div class="card__product">
+    <div class="card__product" itemtype="">
         <div class="card__description">
             <p>Product name</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
@@ -142,7 +157,7 @@
                     src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
     </div>
-    <div class="card__product">
+    <div class="card__product" itemtype="">
         <div class="card__description">
             <p>Product name</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe adipisci sed cumque enim. Ea a
@@ -152,23 +167,31 @@
                     src="{{url_for('static', filename='img/components/add-list.png')}}" alt=""></button>
         </div>
     </div>
-
 </section>
-{% endblock %}
+{% endblock maincontent %}
 {% block aside %}
-<h2>Filter</h2>
+<h2>Prendas</h2>
 <ol>
-    <li> Shoes <input type="checkbox" name="" id=""></li>
-    <li> T-shirts <input type="checkbox" name="" id=""></li>
-    <li> Sweaters <input type="checkbox" name="" id=""></li>
-    <li> Socks <input type="checkbox" name="" id=""></li>
-    <li> Dress <input type="checkbox" name="" id=""></li>
+    <li> Zapatos <input type="checkbox" name="" id=""></li>
+    <li> Camisas <input type="checkbox" name="" id=""></li>
+    <li> Camisetas <input type="checkbox" name="" id=""></li>
+    <li> calcetines <input type="checkbox" name="" id=""></li>
+    <li> Vestidos <input type="checkbox" name="" id=""></li>
 </ol>
-<h2>Filter</h2>
+<h2>Accesorios</h2>
 <ol>
-    <li> Wath <input type="checkbox" name="" id=""></li>
-    <li> Hat <input type="checkbox" name="" id=""></li>
-    <li> Belt <input type="checkbox" name="" id=""></li>
+    <li> Relojes <input type="checkbox" name="" id=""></li>
+    <li> Gorros <input type="checkbox" name="" id=""></li>
+    <li> Cinturones <input type="checkbox" name="" id=""></li>
 </ol>
-<input type="range" name="" id="">
-{% endblock %}
+<h2>Precio</h2>
+<h2 id="rangeValue">0€</h2>
+<input type="range" name="" id="inputRange" min="0" max="100" value="0" list="tickmarks" oninput="myFunction(this.value)">
+<datalist id="tickmarks">
+    <option value="0" label="0%"></option>
+    <option value="50" label="50%"></option>
+    <option value="100" label="100%"></option>
+</datalist>
+{% endblock aside %}
+{% block footer %}
+{% endblock footer %}
