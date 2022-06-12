@@ -172,7 +172,7 @@ Pra saber mas sobre python y flask visita estos enlaces:
 
 </details>
 
-<details open>
+<details>
 <summary>📜Desarrollo del ecomerce📜</summary>
 
 1. Se desarolla el menu ⌚ 05/06/22
